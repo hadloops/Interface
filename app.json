@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/publish/publish"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#05BAD5",
+    "navigationBarTitleText": "91PORN",
+    "navigationBarTextStyle":"white"
+  }
+
+}

@@ -1,0 +1,50 @@
+/* pages/search/search.wxss */
+.search-container{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.searchArea{
+  display: flex;
+  height: 46px;
+  background-color: #03bbd5;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.searchAction{
+  width: 70px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.input{
+  border-radius: 5px;
+  flex: 1;
+  background: #fff;
+  height: 35px;
+  margin-left: 10px;
+  padding: 1px 5px 0 5px;
+}
+
+.resultArea{
+  background-color: #eee;
+}
+
+.resultArea .item{
+  background: #fff;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.resultArea .item .title{
+  font-size:14px;
+  color:#ff9700;
+}
+
+scroll-view {
+  flex:1
+}

@@ -1,0 +1,49 @@
+<!--pages/search/search.wxml-->
+<view class='search-container'>
+
+    <view class="searchArea">
+          <view class='input' >
+            <input type="text"  bindinput="handelBindInput"/>
+          </view>
+      <view class="searchAction"    bindtap="handelSearchAction">
+            <text>搜索</text>
+          
+          </view>
+    </view>
+  
+ <scroll-view scroll-y>
+     <view class='resultArea'>
+      <view class='item' wx:for="{{tradeInfo}}" >
+        <view class='title'> 
+         asdfasdfadsfasdf
+        </view>
+        <view class='message'>
+          afasdfasdfasfas
+        </view>
+      
+      </view>
+      </view>
+  </scroll-view>
+
+   
+
+     
+    
+    
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

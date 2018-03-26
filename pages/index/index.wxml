@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="maps">
+   <map id="map" show-location longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}"  bindcontroltap="controltap" ></map>
+
+  </view>
+
+
+
+
+  <view class="nav">
+
+    <view class="publish" bindtap='gotoPublish'>发布 </view>
+    <view class="search"  bindtap='gotoSearch'>搜索</view>
+   </view>
+</view>

@@ -1,0 +1,12 @@
+<template name="succ">
+    <view class='success'>
+       <icon type="success" size="40" color="{{item}}"/>
+      <text>提交成功</text>
+    
+    </view>
+     <view class="btn" bindtap='back'>
+     <text>返回</text>
+ 
+ </view>
+
+</template>
